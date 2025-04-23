@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "AnimeVerse",
+    "slug": "AnimeVerse",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow AnimeVerse to access your photos",
+          "cameraPermission": "Allow AnimeVerse to access your camera"
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Allow AnimeVerse to access your photos to set your profile picture",
+        "NSCameraUsageDescription": "Allow AnimeVerse to access your camera to take profile pictures"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    }
+  }
+}
