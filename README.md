@@ -88,14 +88,14 @@ AnimeVerse/
 
 * Sign up with basic info (name, email, password)
 * Secure login with Firebase Auth
-* Personalized user data storage with Firestore (optional in future)
+* Personalized user data storage with Firestore
 
 
 
 ## 📊 Performance Metrics
 
-* 📱 95%+ app responsiveness on Android & iOS
-* 🔄 API fetches in < 3 seconds
+* 📱 95% + app responsiveness on Android & iOS
+* 🔄 API fetches in < 2 seconds
 * 🧠 Smooth context-based state handling
 
 
@@ -112,27 +112,17 @@ AnimeVerse/
 ## 📎 Resources
 
 * 📄 [MAD Report PDF](./MAD%20Report.pdf)
-* 📂 Appendices (PPT, Certificates, etc.)
-* 🔗 [Live Project Link (if deployed)](https://expo.dev/...) *(optional)*
 
 
 
 ## 📬 Contact
 
-> Developed by **Saakshat Chandratre**
-> Under the guidance of **Prof. Mrunali Pawar**
+> Developed by **Mr. Saakshat Chandratre** 
 > Department of Computer Science & Design Engineering
-> K. K. Wagh Institute of Engineering Education & Research, Nashik
+> K. K. Wagh Institute of Engineering Education & Research, Nashik. 
 
-📧 [support@animeverse.app](mailto:support@animeverse.app)
-📱 [@AnimeVerseApp](https://twitter.com/AnimeVerseApp) on Twitter & Instagram
 
 
 📄 License
 MIT © [Saakshat Chandratre](https://github.com/Saakshat9)
 
-
----
-
-Let me know if you want a version with emojis reduced, more technical detail (e.g., Firebase schema), or even a deploy guide for Play Store / TestFlight.
-```
